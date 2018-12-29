@@ -1,0 +1,19 @@
+<!--  Improve Compatibility with Browser Fallbacks -->
+
+<!-- Providing a browser fallback - providing another more widely supported value immediately before your declaration.-->
+
+
+
+<style>
+    :root {
+      --red-color: red;
+    }
+    .red-box {
+      
+      background: red;
+      background: var(--red-color);
+      height: 200px;
+      width:200px;
+    }
+  </style>
+  <div class="red-box"></div>
